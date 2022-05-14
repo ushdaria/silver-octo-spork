@@ -6,6 +6,7 @@ namespace lab2_1;
 
 public static class ArraySorter
 {
+    // Метод для сортировки матрицы пузырьком по любым критериям и в любом порядке
     public static void BubbleSort(ref double[,] arr, Func<double[], double> criteria, Func<double, double, bool> order)
     {
         int sizeY = arr.GetLength(0); //кол-во строк
