@@ -8,6 +8,7 @@ public class Countdown
 {
     public event EventHandler<string>? Handler;
 
+    // Производит вызов события Handler
     public void EventHappens(int time)
     {
         Thread.Sleep(time);
